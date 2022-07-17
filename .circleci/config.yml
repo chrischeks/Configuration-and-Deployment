@@ -21,7 +21,7 @@ jobs:
       - run:
           name: Run Playbook and Configure server
           command: |
-            ansible-playbook -i ../inventory.txt ../main-remote.yml
+            ansible-playbook -i inventory.txt main-remote.yml
 
     #create_infrastructure:
     # docker:
